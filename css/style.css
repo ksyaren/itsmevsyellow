@@ -1,0 +1,101 @@
+/* To prevent the contents from expanding, 
+padding and border values are added within
+ the star so that it affects all the contents on the page */
+ *
+ {
+     box-sizing: border-box;
+ }
+ 
+ body
+ {  
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Calistoga', cursive;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-family: 'Viga', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+     margin:0;
+ }
+ /* The navbar section in the HTML has been modified. */
+ #navbar
+ {  
+     height: 70px;
+     padding:0 20px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+     position: relative; 
+
+ }
+ 
+ #logo
+{  
+    margin-left: 30px;
+     font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 40px;
+    line-height: 70px;
+    color: #ffa000;
+    float: left;
+}
+
+nav
+{
+   margin-left: 40px;
+   float: left;
+   line-height: 70px;
+}
+
+nav a
+{   color: rgb(15, 15, 15);
+    text-decoration: none;
+    margin-left: 40px;
+   
+}
+
+nav a:hover
+{  /* Adds a border at the bottom when the link is hovered over */
+   color:#ffa000;
+}
+
+ #banner
+{
+    background-color: gray;
+    height: 680px;
+    background-image: url("../images/b.png");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    
+
+}
+#title
+{   font-family: 'Calistoga', cursive;
+    position: absolute; 
+    top: 48%;
+    left:12%;
+     /* to locate content properly x and y values arranged*/
+    transform: translate(-50%,-50%);
+    color: rgb(33, 31, 31);
+    font-size: 32px;
+}
+
+#content
+{   font-family: 'Ysabeau Office', sans-serif;
+    position: absolute; 
+    top: 60%;
+    left:24%;
+     /* to locate content properly x and y values arranged*/
+    transform: translate(-50%,-50%);
+    color: rgb(108, 106, 106);
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+#titleYellow
+{
+    color: #ffa000;
+    position: absolute; 
+    top: 48%;
+    left:25%;
+     /* to locate content properly x and y values arranged*/
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
