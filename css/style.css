@@ -214,7 +214,7 @@ nav a:hover
   .card {
     
     width: 290px;
-    background-color: white;
+    background-color: #fbefe3;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -232,23 +232,29 @@ nav a:hover
   }
   
   .card-content {
-    padding: 10px;
+  
+    text-align: center;
+    padding: 0px;
   }
   
   h2 {
+    
+    font-family: 'Sue Ellen Francisco', cursive;
     margin: 0;
-    font-size: 1.5rem;
-    color: #333;
+    font-size: 28px;
+    color: #3c3c3c;
   }
   
   .card-content a {
+    font-size: 18px;
     display: inline-block;
-    margin-top: 5px;
-    color: #007bff;
+    font-style: italic;
+    color: #3aa346;
     text-decoration: none;
     transition: color 0.2s;
+    padding: 2px;
   }
   
   .card-content a:hover {
-    color: #0056b3;
+    color: #ffa000;
   }
