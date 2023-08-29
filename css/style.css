@@ -179,7 +179,7 @@ nav a:hover
 {  
     height: 500px;
     width: 500px;
-    background-image: url("../images/Untitled design.png");
+    background-image: url("../images/cookie.png");
     background-size: cover;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -255,6 +255,89 @@ nav a:hover
     padding: 2px;
   }
   
-  .card-content a:hover {
+  /*.card-content a:hover {
     color: #ffa000;
   }
+*/
+
+/* FRENCH CHIKEN RECİPE */
+
+#frenchiken-container {
+  
+
+  width:1200px;
+  height:auto;
+  margin: auto;
+}
+
+#chiken-image img 
+{
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-bottom: 240px;
+  width: 1000px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+
+#title-frenchiken {
+  
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 24px;
+  position:absolute;
+  color: rgb(68, 65, 65);
+  left: 38%;
+  top: 65%;
+  
+}
+
+
+#recipe-chiken-parapraph p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+  position:absolute;
+  width: 1000px;
+  color: rgb(139, 134, 134);
+  padding:0;
+  margin-top:0px;
+  font-size:18px;
+  text-align: center;
+  top: 83%;
+  left: 17%;
+    
+}
+#recipe-steps
+{
+  margin-left: 90px;
+  color: rgb(139, 134, 134);
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+.grid-container
+{ 
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* İki sütunlu grid */
+  margin-top: 25px;
+}
+
+#Ingredients-chiken
+{ 
+  
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 35px;
+  color: rgb(68, 65, 65);
+  margin-left: 105px;
+}
+
+#recipe-chiken-make p
+{
+  
+  color: rgb(139, 134, 134);
+  width: 500px;
+  font-size: 18px;
+  
+  
+}
