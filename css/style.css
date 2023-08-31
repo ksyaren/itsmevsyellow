@@ -262,7 +262,7 @@ nav a:hover
 
 /* FRENCH CHIKEN RECİPE */
 
-#frenchiken-container {
+#meals-container {
   
 
   width:1200px;
@@ -270,7 +270,7 @@ nav a:hover
   margin: auto;
 }
 
-#chiken-image img 
+#meal-image img 
 {
   margin-top: 50px;
   margin-left: 90px;
@@ -281,7 +281,7 @@ nav a:hover
 }
 
 
-#title-frenchiken {
+#title-meal {
   
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 24px;
@@ -293,7 +293,7 @@ nav a:hover
 }
 
 
-#recipe-chiken-parapraph p {
+#meal-parapraph p {
   margin: 0 0 10px;
   line-height: 1.6;
   position:absolute;
@@ -322,7 +322,7 @@ nav a:hover
   margin-top: 25px;
 }
 
-#Ingredients-chiken
+#Ingredients
 { 
   
   font-family: 'Sue Ellen Francisco', cursive;
@@ -333,7 +333,7 @@ nav a:hover
  
 }
 
-#recipe-chiken-make p
+#recipe-make p
 {
   
   color: rgb(139, 134, 134);
