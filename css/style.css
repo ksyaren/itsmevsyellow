@@ -277,7 +277,7 @@ nav a:hover
   margin-bottom: 240px;
   width: 1000px;
   height: 350px;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 
@@ -297,14 +297,14 @@ nav a:hover
   margin: 0 0 10px;
   line-height: 1.6;
   position:absolute;
-  width: 1000px;
+  width: 1200px;
   color: rgb(139, 134, 134);
   padding:0;
   margin-top:0px;
   font-size:18px;
   text-align: center;
   top: 83%;
-  left: 17%;
+  left: 11%;
     
 }
 #recipe-steps
@@ -317,7 +317,6 @@ nav a:hover
 
 .grid-container
 { 
-  
   display: grid;
   grid-template-columns: 1fr 1fr; /* İki sütunlu grid */
   margin-top: 25px;
@@ -330,6 +329,8 @@ nav a:hover
   font-size: 35px;
   color: rgb(68, 65, 65);
   margin-left: 105px;
+  margin-top: 0%;
+ 
 }
 
 #recipe-chiken-make p
