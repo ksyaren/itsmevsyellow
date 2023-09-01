@@ -275,7 +275,7 @@ nav a:hover
   margin-top: 50px;
   margin-left: 200px;
   margin-bottom: 240px;
-  width: 770px;
+  width: 800px;
   height: 350px;
   border-radius: 5px;
 }
@@ -309,7 +309,7 @@ nav a:hover
 }
 #recipe-steps
 {
-  margin-left: 90px;
+  margin-left: 150px;
   color: rgb(139, 134, 134);
   font-size: 18px;
   margin-bottom: 70px;
@@ -328,7 +328,7 @@ nav a:hover
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 35px;
   color: rgb(68, 65, 65);
-  margin-left: 105px;
+  margin-left: 165px;
   margin-top: 0%;
  
 }
@@ -341,4 +341,63 @@ nav a:hover
   font-size: 18px;
   
   
+}
+
+#title-meal-cookie
+{
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 24px;
+  position:absolute;
+  color: rgb(68, 65, 65);
+  left: 44%;
+  top: 65%;
+}
+
+#recipe-make-cookie p
+{
+  margin-top: 27px;
+  color: rgb(139, 134, 134);
+  width: 500px;
+  font-size: 18px;
+  
+}
+#meal-parapraph-cookie p
+{
+  margin: 0 0 10px;
+  line-height: 1.6;
+  position:absolute;
+  width: 900px;
+  color: rgb(139, 134, 134);
+  padding:0;
+  margin-top:0px;
+  font-size:18px;
+  text-align: center;
+  top: 83%;
+  left: 20%;
+}
+
+
+#title-meal-omlette
+{
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 24px;
+  position:absolute;
+  color: rgb(68, 65, 65);
+  left: 44%;
+  top: 65%;
+}
+
+#meal-parapraph-omlette p
+{
+  margin: 0 0 10px;
+  line-height: 1.6;
+  position:absolute;
+  width: 800px;
+  color: rgb(139, 134, 134);
+  padding:0;
+  margin-top:0px;
+  font-size:18px;
+  text-align: center;
+  top: 83%;
+  left: 24%;
 }
