@@ -30,10 +30,10 @@
          <div id ="logo">itsmevsyellow </div>
         
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <a href="">Recipes </a>
-            <a href="About.html" >About </a>
-            <a href="Contact.html">Contact</a>
+            <a href="About.php" >About </a>
+            <a href="Contact.php">Contact</a>
 
         </nav>
     </section>
@@ -43,7 +43,7 @@
         <div class="card-container">
             <div class="card">
             
-              <a href="OatmealYoghurt.html">
+              <a href="OatmealYoghurt.php">
                 <img src="images/strawberry.jpeg" alt="" class="card-img">
              </a>
               <div class="card-content">
@@ -55,7 +55,7 @@
 
             <div class="card">
 
-              <a href="CloudCake.html">
+              <a href="CloudCake.php">
                 <img src="images/cake.jpeg" alt="" class="card-img">
              </a>
               <div class="card-content">
@@ -67,7 +67,7 @@
 
             <div class="card">
              
-              <a href="Tomatomlette.html">
+              <a href="Tomatomlette.php">
                 <img src="images/omlet.jpeg" alt="" class="card-img">
              </a>
               <div class="card-content">
@@ -78,7 +78,7 @@
             </div>
             
             <div class="card">
-              <a href="ZucchiniSpagetti.html">
+              <a href="ZucchiniSpagetti.php">
                 <img src="images/kabak.jpeg" alt="" class="card-img">
              </a>
               <div class="card-content">
@@ -93,7 +93,7 @@
           <div class="card-container">
             <div class="card">
                
-              <a href="FrenchChicken.html">
+              <a href="FrenchChicken.php">
                 <img src="images/tavuk.jpeg" alt="" class="card-img">
              </a>
               <div class="card-content">
@@ -106,7 +106,7 @@
               </div>
               
               <div class="card">
-                <a href="SweetsourCookies.html">
+                <a href="SweetsourCookies.php">
                   <img src="images/üzümlü.jpeg" alt="" class="card-img">
                </a>
                 <div class="card-content">
@@ -121,7 +121,7 @@
               
               <div class="card">
             
-                <a href="Pomegra-lemonate.html">
+                <a href="Pomegra-lemonate.php">
                   <img src="images/pomegranate.jpeg" alt="" class="card-img">
                </a>
               
@@ -134,7 +134,7 @@
 
 
               <div class="card">
-                <a href="breakfsat.html">
+                <a href="breakfsat.php">
                   <img src="images/breakfast.jpeg" alt="" class="card-img">
                </a>
                 <div class="card-content">
@@ -152,3 +152,6 @@
 </body>
 </html>
 
+<?php
+include("connection.php")
+?>

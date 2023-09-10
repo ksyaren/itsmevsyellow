@@ -38,12 +38,36 @@
     <th>Message</th>
   </tr>
 
-  <tr>
-    <td>Yaren</td>
-    <td>05564252459</td>
-    <td>yaren@gmail.com</td>
-    <td>congrats!</td>
-  </tr>
+
+  <?php
+include("connection.php");
+
+$select = "SELECT * FROM contact";
+$final = $connect->query($select);
+
+if ($final->num_rows > 0) {
+    while ($insert = $final->fetch_assoc()) {
+        echo "<tr>
+        <td>" . $insert['name'] . "</td>
+        <td>" . $insert['lastname'] . "</td>
+        <td>" . $insert['email'] . "</td>
+        <td>" . $insert['message'] . "</td>
+        </tr>";
+    }
+} else {
+    echo "There is no data in the database";
+}
+?>
+
+
+
+
+
+
+
+
+
+  
 </table>
 
 </body>

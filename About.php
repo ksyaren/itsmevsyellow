@@ -22,10 +22,10 @@
      <div id ="logo">itsmevsyellow </div>
     
     <nav>
-        <a href="index.html">Home</a>
-        <a href="Recipes.html">Recipes</a>
-        <a href="About.html" >About </a>
-        <a href="Contact.html">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="Recipes.php">Recipes</a>
+        <a href="About.php" >About </a>
+        <a href="Contact.php">Contact</a>
 
     </nav>
 </section>
@@ -55,5 +55,9 @@
     </section>
 
 <body>
- </html>
+</html>
+
+<?php
+include("connection.php")
+?>
 

@@ -640,3 +640,17 @@ input[type="submit"]
   margin-left: 550px;
   
 }
+/* tıklayınca oluşan siyah Kenarları kaldırmak için */
+input[type="text"]:focus {
+  outline: none; /* tıklayınca oluşan siyah Kenarları kaldırmak için */
+}
+
+input[type="email"]:focus {
+  outline: none; /* Kenarları kaldırmak için */
+}
+input[name="message"]:focus {
+  outline: none; /* Kenarları kaldırmak için */
+}
+textarea[name="message"]:focus {
+  outline: none; /* Kenarları kaldırmak için */
+}

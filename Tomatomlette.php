@@ -26,10 +26,10 @@
          <div id ="logo">itsmevsyellow </div>
         
         <nav>
-            <a href="index.html">Home</a>
-            <a href="Recipes.html" >Recipes </a>
-            <a href="About.html" >About </a>
-            <a href="Contact.html">Contact</a>
+            <a href="index.php">Home</a>
+            <a href="Recipes.php" >Recipes </a>
+            <a href="About.php" >About </a>
+            <a href="Contact.php">Contact</a>
 
         </nav>
     </section>
@@ -38,36 +38,36 @@
       
         <div id="meals-container">
             <div id="meal-image">
-                <img src="images/oatmeal.png" alt="">
+                <img src="images/Tomatomlette.png" alt="">
             </div>
             
-            <div id="title-meal"> 
-             <h1>Oatmeal with Yoghurt and Berries</h1>
+            <div id="title-meal-omlette"> 
+             <h1>Tomato Omlette</h1>
              </div>
  
-             <div id="meal-parapraph">
-                <p id="entrance">Sometimes when I open my eyes in the morning,  I find myself gloomy. 
-                     Those days I crave something delicious, sweet, fresh, but diet friendly.  
-                     If you feel like me, I know exactly what you need: Oatmeal with yoghurt and berries. 
-                     Delicious, sweet, fresh and diet friendly…
-                     Bonus it is also super healthy.  </p>
+             <div id="meal-parapraph-omlette">
+                <p id="entrance">This recipe is for ones who say “We also would try at home 
+                    if the ingredients were simple to find.” Simple ingredients,
+                     simple recipe but a wonderful taste.</p>
              </div>
             <div class="grid-container">
              <div id="meal-ingredients">
                  <h1 id="Ingredients">Ingredients</h1>
                  <ul id="recipe-steps">
-                    <li>3 tablespoons of yoghurt</li>
-                    <li>2 tablespoons of oatmeal</li>
-                    <li>Berries you like</li>
-                    <li>Walnut</li>
-                    <li>Cinnamon</li>
+                    <li>2 eggs</li>
+                    <li>1 tomato</li>
+                    <li>Salt, red pepper, mint</li>
+                    <li>A clove of garlic</li>
+                    <li>Olive oil</li>
                     
                   </ul>
                 </div>
                 <div id="recipe-make">
-                  <p>Put yoghurt in a bowl and add oatmeal. Mix them well and set aside in the fridge for 30 minutes. When the mixture has a thicker consistency, add your favourite berries on it, which are strawberries and blueberries for me. </p>
-                  <p>Sprinkle some cinnamon and walnut pieces. It is that easy to prepare such a delicious, sweet, fresh, healthy and diet friendly breakfast. Hope you like it.</p>
-                
+                  <p>Beat the eggs with some salt and set aside. Slice the tomatoes. Put some olive oil into the pan. </p>
+                  <p>When the oil is hot enough, add tomatoes and season them with some red pepper and mint.</p>
+                  <p> When both sides of tomatoes are fried enough, pour the egg onto the tomatoes. </p>
+                  <p>Flip the omelette carefully when it is ready. You may use a plate for flipping the omelette. Serve with salad.</p>
+                  
                 </div>
             
             
@@ -82,3 +82,7 @@
     
 </body>
 </html>
+
+<?php
+include("connection.php")
+?>

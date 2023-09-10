@@ -22,9 +22,9 @@
      <div id ="logo">itsmevsyellow </div>
     
     <nav>
-        <a href="index.html">Home</a>
-        <a href="Recipes.html">Recipes</a>
-        <a href="About.html" >About </a>
+        <a href="index.php">Home</a>
+        <a href="Recipes.php">Recipes</a>
+        <a href="About.php" >About </a>
         <a href="">Contact</a>
 
     </nav>
@@ -34,7 +34,7 @@
 <section id="contact">
     <div class="container">
 
-
+    <form action="contact.php" method="post">
         <div id="contact-opacity">
 
             <div id="form-group">
@@ -63,6 +63,8 @@
                
             </div>
         </div>
+
+     </form>
             <footer>
                 <div id="copyright">2023 itsmevsyellow. All rights reserved.</div>
             </footer>
@@ -73,3 +75,29 @@
 <body>
  </html>
 
+ <?php
+include("connection.php");
+
+if(isset($_POST["Name"],$_POST["mail"],$_POST["Surname"],$_POST["message"]))
+{
+    $name=$_POST["Name"];
+    $surname=$_POST["Surname"];
+    $mail=$_POST["mail"];
+    $message=$_POST["message"];
+
+
+  
+  $add="INSERT INTO contact (name, lastname, email, message) VALUES (' ".$name."', ' ".$surname."', ' ".$mail."','".$message."')";
+
+  if($connect->query($add)===TRUE)
+  {
+    echo "<script>alert('Your message has been sent ')</script>";
+  }
+  else
+  {
+    echo "<script>alert('An error occurred while sending your message. ')</script>";
+  }
+}
+
+
+?>

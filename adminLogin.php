@@ -52,7 +52,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
 <!-- verileri adres çubuğunda gizlemek için post kullanılır -->
-<form action="/adminLogin.html" method="post"  style="max-width:500px;margin:auto">
+<form action="/adminLogin.php" method="post"  style="max-width:500px;margin:auto">
   <h2>Admin Login</h2>
   <div class="input-container">
     <i class="fa fa-user icon"></i>
@@ -70,3 +70,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 </body>
 </html>
+
+<?php
+
+session_start();
+
+if (isset($_POST["usrnm"], $_POST["psw"])) {
+    if ($_POST["usrnm"] == "admin" && $_POST["psw"] == "12345") {
+        $_SESSION["user"] = $_POST["usrnm"];
+        header("Location: panel.php");
+      
+    } else {
+        echo "<script>alert('Username or password is wrong')</script>";
+    }
+}
