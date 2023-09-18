@@ -15,5 +15,4 @@ First of all, I started by preparing the building blocks of the site with html, 
 XAMPP stands for "Cross-Platform (X), Apache (A), MariaDB/MySQL (M), PHP (P), and Perl (P)." It is a free and open-source software package designed for web developers and individuals who need a web server environment on their computer. XAMPP allows you to easily set up a web server on your computer for developing and testing web applications.
 
 ### AS A CONCLUSION
-The project is currently only working locally, but it will be improved and completed over time. If you want to see the visual version of the project, you can see the visual version of the project from my linkedin account on my profile.
-
+The project is currently only working locally, but it will be improved and completed over time. If you want to see the visual version of the project, you can check out projectSS folder.
