@@ -4,7 +4,7 @@
    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>itsmevsyellow </title>
+    <title>Recipes </title>
     <!--Connection established between index and css. -->
     <link rel="stylesheet" href="css/style.css">
 
