@@ -16,3 +16,16 @@ XAMPP stands for "Cross-Platform (X), Apache (A), MariaDB/MySQL (M), PHP (P), an
 
 ### AS A CONCLUSION
 The project is currently only working locally, but it will be improved and completed over time. If you want to see the visual version of the project, you can check out projectSS folder.
+
+## Website Preview
+### Home Page
+![Home](https://github.com/ksyaren/itsmevsyellow/blob/main/ProjectSS/Home.png)
+### Recipes Page
+![Recipe](https://github.com/ksyaren/itsmevsyellow/blob/main/ProjectSS/Recipes.png)
+![Recipe](https://github.com/ksyaren/itsmevsyellow/blob/main/ProjectSS/Recipes2.png)
+### About Page
+![About Menu](https://github.com/ksyaren/itsmevsyellow/blob/main/ProjectSS/About.png)
+### Contact Page
+![Contact](https://github.com/ksyaren/itsmevsyellow/blob/main/ProjectSS/Contact.png)
+
+
